@@ -1,0 +1,25 @@
+{
+  "no_account": {
+    "account": "15800000015",
+    "password": "123456",
+    "code": "8888",
+    "expect": "账号不存在",
+    "is_suc": false
+  },
+  "password_error": {
+    "account": "18778621730",
+    "password": "error",
+    "code": "8888",
+    "expect": "密码错误",
+    "is_suc": false
+  },
+  "login_suc": {
+    "account": "18778621730",
+    "password": "123456",
+    "code": "8888",
+    "expect": "我的账户",
+    "is_suc": true
+  }
+}
+
+

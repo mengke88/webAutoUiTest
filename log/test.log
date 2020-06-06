@@ -1,0 +1,157 @@
+2020-06-05 20:21:03,479 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-06-05 20:21:03,482 DEBUG [connectionpool.py(_new_conn:230)] - Starting new HTTP connection (1): 127.0.0.1:3415
+2020-06-05 20:21:05,247 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session HTTP/1.1" 200 716
+2020-06-05 20:21:05,247 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:05,248 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/window/maximize {}
+2020-06-05 20:21:06,367 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/window/maximize HTTP/1.1" 200 51
+2020-06-05 20:21:06,368 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:06,368 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/timeouts {"implicit": 30000}
+2020-06-05 20:21:06,369 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/timeouts HTTP/1.1" 200 14
+2020-06-05 20:21:06,369 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:06,369 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/url {"url": "http://localhost/"}
+2020-06-05 20:21:08,453 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/url HTTP/1.1" 200 14
+2020-06-05 20:21:08,453 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:10,456 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/url {"url": "http://localhost/"}
+2020-06-05 20:21:12,057 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/url HTTP/1.1" 200 14
+2020-06-05 20:21:12,058 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:12,059 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element {"using": "css selector", "value": ".red"}
+2020-06-05 20:21:12,074 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element HTTP/1.1" 200 88
+2020-06-05 20:21:12,074 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:12,074 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/4b87894b-b5cd-4206-b3a3-0d9ebd3db53f/click {"id": "4b87894b-b5cd-4206-b3a3-0d9ebd3db53f"}
+2020-06-05 20:21:14,630 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/4b87894b-b5cd-4206-b3a3-0d9ebd3db53f/click HTTP/1.1" 200 14
+2020-06-05 20:21:14,631 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:14,632 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element {"using": "css selector", "value": "[id=\"username\"]"}
+2020-06-05 20:21:14,646 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element HTTP/1.1" 200 88
+2020-06-05 20:21:14,647 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:14,647 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/103f58fa-c3d2-4a60-b38b-9b19624a65c5/clear {"id": "103f58fa-c3d2-4a60-b38b-9b19624a65c5"}
+2020-06-05 20:21:14,685 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/103f58fa-c3d2-4a60-b38b-9b19624a65c5/clear HTTP/1.1" 200 14
+2020-06-05 20:21:14,685 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:14,685 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/103f58fa-c3d2-4a60-b38b-9b19624a65c5/value {"text": "15800000015", "value": ["1", "5", "8", "0", "0", "0", "0", "0", "0", "1", "5"], "id": "103f58fa-c3d2-4a60-b38b-9b19624a65c5"}
+2020-06-05 20:21:14,739 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/103f58fa-c3d2-4a60-b38b-9b19624a65c5/value HTTP/1.1" 200 14
+2020-06-05 20:21:14,739 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:14,739 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element {"using": "css selector", "value": "[id=\"password\"]"}
+2020-06-05 20:21:14,750 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element HTTP/1.1" 200 88
+2020-06-05 20:21:14,750 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:14,751 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/86ebfec8-b34a-4246-8709-5cd5b0740925/clear {"id": "86ebfec8-b34a-4246-8709-5cd5b0740925"}
+2020-06-05 20:21:14,781 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/86ebfec8-b34a-4246-8709-5cd5b0740925/clear HTTP/1.1" 200 14
+2020-06-05 20:21:14,781 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:14,781 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/86ebfec8-b34a-4246-8709-5cd5b0740925/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "86ebfec8-b34a-4246-8709-5cd5b0740925"}
+2020-06-05 20:21:14,837 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/86ebfec8-b34a-4246-8709-5cd5b0740925/value HTTP/1.1" 200 14
+2020-06-05 20:21:14,837 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:14,838 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element {"using": "css selector", "value": "[id=\"verify_code\"]"}
+2020-06-05 20:21:14,853 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element HTTP/1.1" 200 88
+2020-06-05 20:21:14,853 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:14,853 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/61d99f1e-0908-422f-88c6-3981f1f27bb2/clear {"id": "61d99f1e-0908-422f-88c6-3981f1f27bb2"}
+2020-06-05 20:21:14,896 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/61d99f1e-0908-422f-88c6-3981f1f27bb2/clear HTTP/1.1" 200 14
+2020-06-05 20:21:14,896 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:14,896 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/61d99f1e-0908-422f-88c6-3981f1f27bb2/value {"text": "8888", "value": ["8", "8", "8", "8"], "id": "61d99f1e-0908-422f-88c6-3981f1f27bb2"}
+2020-06-05 20:21:14,963 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/61d99f1e-0908-422f-88c6-3981f1f27bb2/value HTTP/1.1" 200 14
+2020-06-05 20:21:14,964 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:14,964 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element {"using": "css selector", "value": "[name=\"sbtbutton\"]"}
+2020-06-05 20:21:14,975 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element HTTP/1.1" 200 88
+2020-06-05 20:21:14,976 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:14,976 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/c4b273e5-4492-4ac7-90a8-7e2ee623058d/click {"id": "c4b273e5-4492-4ac7-90a8-7e2ee623058d"}
+2020-06-05 20:21:15,020 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/c4b273e5-4492-4ac7-90a8-7e2ee623058d/click HTTP/1.1" 200 14
+2020-06-05 20:21:15,020 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:18,021 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element {"using": "css selector", "value": ".layui-layer-content"}
+2020-06-05 20:21:18,032 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element HTTP/1.1" 200 88
+2020-06-05 20:21:18,032 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:18,033 DEBUG [remote_connection.py(_request:388)] - GET http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/d9535527-c934-4260-9297-c42a9ffdf26f/text {"id": "d9535527-c934-4260-9297-c42a9ffdf26f"}
+2020-06-05 20:21:18,045 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "GET /session/cc0050e4ee02cce5ee531d32173d117e/element/d9535527-c934-4260-9297-c42a9ffdf26f/text HTTP/1.1" 200 28
+2020-06-05 20:21:18,045 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:20,046 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/url {"url": "http://localhost/"}
+2020-06-05 20:21:21,721 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/url HTTP/1.1" 200 14
+2020-06-05 20:21:21,722 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:21,723 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element {"using": "css selector", "value": ".red"}
+2020-06-05 20:21:21,737 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element HTTP/1.1" 200 88
+2020-06-05 20:21:21,737 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:21,738 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/bd9a697f-f94c-49fa-acbd-17e1d76f259e/click {"id": "bd9a697f-f94c-49fa-acbd-17e1d76f259e"}
+2020-06-05 20:21:26,232 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/bd9a697f-f94c-49fa-acbd-17e1d76f259e/click HTTP/1.1" 200 14
+2020-06-05 20:21:26,233 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:26,233 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element {"using": "css selector", "value": "[id=\"username\"]"}
+2020-06-05 20:21:26,249 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element HTTP/1.1" 200 88
+2020-06-05 20:21:26,250 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:26,250 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/459344d1-1b1e-4e9c-b91b-3dd0293fc4e9/clear {"id": "459344d1-1b1e-4e9c-b91b-3dd0293fc4e9"}
+2020-06-05 20:21:26,282 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/459344d1-1b1e-4e9c-b91b-3dd0293fc4e9/clear HTTP/1.1" 200 14
+2020-06-05 20:21:26,282 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:26,282 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/459344d1-1b1e-4e9c-b91b-3dd0293fc4e9/value {"text": "18778621730", "value": ["1", "8", "7", "7", "8", "6", "2", "1", "7", "3", "0"], "id": "459344d1-1b1e-4e9c-b91b-3dd0293fc4e9"}
+2020-06-05 20:21:26,333 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/459344d1-1b1e-4e9c-b91b-3dd0293fc4e9/value HTTP/1.1" 200 14
+2020-06-05 20:21:26,334 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:26,334 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element {"using": "css selector", "value": "[id=\"password\"]"}
+2020-06-05 20:21:26,345 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element HTTP/1.1" 200 88
+2020-06-05 20:21:26,345 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:26,346 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/e9ba741c-4c26-4fbd-9414-7aa0e683df16/clear {"id": "e9ba741c-4c26-4fbd-9414-7aa0e683df16"}
+2020-06-05 20:21:26,378 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/e9ba741c-4c26-4fbd-9414-7aa0e683df16/clear HTTP/1.1" 200 14
+2020-06-05 20:21:26,378 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:26,378 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/e9ba741c-4c26-4fbd-9414-7aa0e683df16/value {"text": "error", "value": ["e", "r", "r", "o", "r"], "id": "e9ba741c-4c26-4fbd-9414-7aa0e683df16"}
+2020-06-05 20:21:26,431 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/e9ba741c-4c26-4fbd-9414-7aa0e683df16/value HTTP/1.1" 200 14
+2020-06-05 20:21:26,431 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:26,431 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element {"using": "css selector", "value": "[id=\"verify_code\"]"}
+2020-06-05 20:21:26,443 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element HTTP/1.1" 200 88
+2020-06-05 20:21:26,444 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:26,444 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/2c962c42-6e70-45aa-a911-4e0a11f308bc/clear {"id": "2c962c42-6e70-45aa-a911-4e0a11f308bc"}
+2020-06-05 20:21:26,480 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/2c962c42-6e70-45aa-a911-4e0a11f308bc/clear HTTP/1.1" 200 14
+2020-06-05 20:21:26,480 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:26,480 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/2c962c42-6e70-45aa-a911-4e0a11f308bc/value {"text": "8888", "value": ["8", "8", "8", "8"], "id": "2c962c42-6e70-45aa-a911-4e0a11f308bc"}
+2020-06-05 20:21:26,552 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/2c962c42-6e70-45aa-a911-4e0a11f308bc/value HTTP/1.1" 200 14
+2020-06-05 20:21:26,553 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:26,553 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element {"using": "css selector", "value": "[name=\"sbtbutton\"]"}
+2020-06-05 20:21:26,569 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element HTTP/1.1" 200 88
+2020-06-05 20:21:26,570 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:26,570 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/c46e23e9-3675-4452-9bf4-1fe9d2d32a6f/click {"id": "c46e23e9-3675-4452-9bf4-1fe9d2d32a6f"}
+2020-06-05 20:21:26,635 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/c46e23e9-3675-4452-9bf4-1fe9d2d32a6f/click HTTP/1.1" 200 14
+2020-06-05 20:21:26,636 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:29,636 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element {"using": "css selector", "value": ".layui-layer-content"}
+2020-06-05 20:21:29,647 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element HTTP/1.1" 200 88
+2020-06-05 20:21:29,647 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:29,647 DEBUG [remote_connection.py(_request:388)] - GET http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/f19254d0-d5de-4fd0-a96f-f43c104fc5cf/text {"id": "f19254d0-d5de-4fd0-a96f-f43c104fc5cf"}
+2020-06-05 20:21:29,661 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "GET /session/cc0050e4ee02cce5ee531d32173d117e/element/f19254d0-d5de-4fd0-a96f-f43c104fc5cf/text HTTP/1.1" 200 25
+2020-06-05 20:21:29,661 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:31,662 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/url {"url": "http://localhost/"}
+2020-06-05 20:21:33,399 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/url HTTP/1.1" 200 14
+2020-06-05 20:21:33,401 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:33,402 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element {"using": "css selector", "value": ".red"}
+2020-06-05 20:21:33,415 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element HTTP/1.1" 200 88
+2020-06-05 20:21:33,416 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:33,416 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/e0e545f6-7293-4ce7-96c5-3d192c789091/click {"id": "e0e545f6-7293-4ce7-96c5-3d192c789091"}
+2020-06-05 20:21:35,885 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/e0e545f6-7293-4ce7-96c5-3d192c789091/click HTTP/1.1" 200 14
+2020-06-05 20:21:35,886 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:35,886 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element {"using": "css selector", "value": "[id=\"username\"]"}
+2020-06-05 20:21:35,898 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element HTTP/1.1" 200 88
+2020-06-05 20:21:35,898 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:35,898 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/71a6a6f6-6fb1-4db4-8c64-be6d1d5159b8/clear {"id": "71a6a6f6-6fb1-4db4-8c64-be6d1d5159b8"}
+2020-06-05 20:21:35,931 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/71a6a6f6-6fb1-4db4-8c64-be6d1d5159b8/clear HTTP/1.1" 200 14
+2020-06-05 20:21:35,931 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:35,931 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/71a6a6f6-6fb1-4db4-8c64-be6d1d5159b8/value {"text": "18778621730", "value": ["1", "8", "7", "7", "8", "6", "2", "1", "7", "3", "0"], "id": "71a6a6f6-6fb1-4db4-8c64-be6d1d5159b8"}
+2020-06-05 20:21:35,980 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/71a6a6f6-6fb1-4db4-8c64-be6d1d5159b8/value HTTP/1.1" 200 14
+2020-06-05 20:21:35,981 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:35,981 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element {"using": "css selector", "value": "[id=\"password\"]"}
+2020-06-05 20:21:35,992 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element HTTP/1.1" 200 88
+2020-06-05 20:21:35,993 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:35,993 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/84897d8a-3eb9-4e78-aaa4-0fc893592d7c/clear {"id": "84897d8a-3eb9-4e78-aaa4-0fc893592d7c"}
+2020-06-05 20:21:36,026 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/84897d8a-3eb9-4e78-aaa4-0fc893592d7c/clear HTTP/1.1" 200 14
+2020-06-05 20:21:36,027 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:36,027 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/84897d8a-3eb9-4e78-aaa4-0fc893592d7c/value {"text": "123456", "value": ["1", "2", "3", "4", "5", "6"], "id": "84897d8a-3eb9-4e78-aaa4-0fc893592d7c"}
+2020-06-05 20:21:36,080 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/84897d8a-3eb9-4e78-aaa4-0fc893592d7c/value HTTP/1.1" 200 14
+2020-06-05 20:21:36,080 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:36,080 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element {"using": "css selector", "value": "[id=\"verify_code\"]"}
+2020-06-05 20:21:36,093 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element HTTP/1.1" 200 88
+2020-06-05 20:21:36,093 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:36,094 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/4d93137e-c504-4d11-8050-e85b627a2958/clear {"id": "4d93137e-c504-4d11-8050-e85b627a2958"}
+2020-06-05 20:21:36,130 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/4d93137e-c504-4d11-8050-e85b627a2958/clear HTTP/1.1" 200 14
+2020-06-05 20:21:36,130 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:36,130 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/4d93137e-c504-4d11-8050-e85b627a2958/value {"text": "8888", "value": ["8", "8", "8", "8"], "id": "4d93137e-c504-4d11-8050-e85b627a2958"}
+2020-06-05 20:21:36,186 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/4d93137e-c504-4d11-8050-e85b627a2958/value HTTP/1.1" 200 14
+2020-06-05 20:21:36,187 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:36,188 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element {"using": "css selector", "value": "[name=\"sbtbutton\"]"}
+2020-06-05 20:21:36,200 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element HTTP/1.1" 200 88
+2020-06-05 20:21:36,201 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:36,201 DEBUG [remote_connection.py(_request:388)] - POST http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/element/6c342ce9-7c9a-4e54-9df5-f9b5ea200f21/click {"id": "6c342ce9-7c9a-4e54-9df5-f9b5ea200f21"}
+2020-06-05 20:21:36,246 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "POST /session/cc0050e4ee02cce5ee531d32173d117e/element/6c342ce9-7c9a-4e54-9df5-f9b5ea200f21/click HTTP/1.1" 200 14
+2020-06-05 20:21:36,246 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:39,246 DEBUG [remote_connection.py(_request:388)] - GET http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e/title {}
+2020-06-05 20:21:40,884 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "GET /session/cc0050e4ee02cce5ee531d32173d117e/title HTTP/1.1" 200 176
+2020-06-05 20:21:40,885 DEBUG [remote_connection.py(_request:440)] - Finished Request
+2020-06-05 20:21:45,886 DEBUG [remote_connection.py(_request:388)] - DELETE http://127.0.0.1:3415/session/cc0050e4ee02cce5ee531d32173d117e {}
+2020-06-05 20:21:45,961 DEBUG [connectionpool.py(_make_request:442)] - http://127.0.0.1:3415 "DELETE /session/cc0050e4ee02cce5ee531d32173d117e HTTP/1.1" 200 14
+2020-06-05 20:21:45,962 DEBUG [remote_connection.py(_request:440)] - Finished Request
